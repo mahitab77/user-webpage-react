@@ -1,0 +1,23 @@
+/* src/components/Home.css */
+
+.home-container {
+    background-image: url('../assets/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content {
+    width:35vw;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background to the text */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
